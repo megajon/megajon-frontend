@@ -29,6 +29,14 @@ div#navbar ul li i {
     font-size: 10em;
 }
 
+div#navbar ul li button img {
+    position: relative;
+    bottom: 1em;
+    color: black;
+    width: 10em;
+    height: 10em;
+}
+
 
 .section {
     /* height: 98em; */
