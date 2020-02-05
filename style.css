@@ -140,7 +140,6 @@ button {
 #apps-container {
     position: relative;
     top: 10em;
-    /* width: 90%; */
 }
 
 #apps-list {
@@ -148,13 +147,24 @@ button {
     margin: 0 auto;
     list-style: none;
     padding-left: 0;
-    text-align: center;
     width: 90%;
 }
 
 .project-card {
-    /* text-align: center; */
-    margin-bottom: 2em;
+    margin-bottom: 3em;
+}
+
+.project-card-heading {
+    background-color: grey;
+    height: 6em;
+    text-align: center;
+}
+
+.project-card-title {
+    position: relative;
+    top: 0.4em;
+    font-weight: bold;
+    font-size: 3.2em;
 }
 
 .project-image {
