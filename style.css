@@ -137,4 +137,18 @@ button {
     font-size: 2em;
 }
 
+#apps-container {
+    position: relative;
+    top: 10em;
+}
+
+#apps-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.project-image {
+    width: 100%;
+}
+
 
