@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="https://kit.fontawesome.com/f4d7e0070e.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="profile-section" class="section">
+            <div id="profile-image-container">
+                <img id="profile-image" src="https://seubsworld-assets.s3.amazonaws.com/assets/photo_50.jpg" />
+            </div>
+            <div id="profile-title-container">
+                <h1>Jonathan C. Seubert</h1>
+                <h2>Writer   &   UX Engineer</h2>
+            </div>
+            <div id="social-media-containter">
+                <ul id="social-media-icons">
+                    <li><a href="https://www.linkedin.com/in/jonathan-seubert"><img src="https://seubsworld-assets.s3.amazonaws.com/assets/iconmonstr-linkedin-4.svg" /></a></li>
+                    <li><a href="https://github.com/megajon"><img src="https://seubsworld-assets.s3.amazonaws.com/assets/iconmonstr-github-1.svg" /></a></li>
+                    <li><a href="https://twitter.com/seubert_c"><img src="https://seubsworld-assets.s3.amazonaws.com/assets/iconmonstr-twitter-4.svg" /></a></li>
+                    <li><a href="https://www.facebook.com/jonathan.seubert"><img src="https://seubsworld-assets.s3.amazonaws.com/assets/iconmonstr-facebook-4.svg" /></a></li>
+                    <li><a href="mailto:jonathan.seubert@megajon.com"><img src="https://seubsworld-assets.s3.amazonaws.com/assets/iconmonstr-email-10.svg" /></a></li>
+                    <li><a href="https://seubsworld-assets.s3.amazonaws.com/assets/JonathanSeubert_Resume.pdf" ><div id="cv-link"><div id="cv-link-text">CV</div></div></a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="projects-section" class="section">
+            <h1 class="section-content">Projects Section</h1>
+        </div>
+        <div id="navbar">
+            <ul>
+                <li><button onclick="document.querySelector('#profile-section').scrollIntoView({ behavior: 'smooth' });"><i class="fas fa-user fa-10x icon" ></i></button></li>
+                <li><button onclick="document.querySelector('#projects-section').scrollIntoView({ behavior: 'smooth' });"><i class="fas fa-briefcase fa-10x icon"></i></button></li>
+            </ul>
+        </div>
+    </body>
+</html>
