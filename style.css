@@ -140,11 +140,21 @@ button {
 #apps-container {
     position: relative;
     top: 10em;
+    /* width: 90%; */
 }
 
 #apps-list {
+    position: relative;
+    margin: 0 auto;
     list-style: none;
     padding-left: 0;
+    text-align: center;
+    width: 90%;
+}
+
+.project-card {
+    /* text-align: center; */
+    margin-bottom: 2em;
 }
 
 .project-image {
