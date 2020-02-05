@@ -155,16 +155,17 @@ button {
 }
 
 .project-card-heading {
-    background-color: grey;
+    background-color: black;
     height: 6em;
     text-align: center;
 }
 
 .project-card-title {
     position: relative;
-    top: 0.4em;
+    top: 0.3em;
     font-weight: bold;
     font-size: 3.2em;
+    color: white;
 }
 
 .project-image {
