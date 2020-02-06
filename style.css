@@ -146,9 +146,15 @@ button {
 
 #apps-container {
     display: none;
+    height: 90em;
 }
 
 #writing-container {
+    /* display: none; */
+    height: 90em;
+}
+
+#av-container {
     display: none;
 }
 
