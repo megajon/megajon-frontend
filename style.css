@@ -145,12 +145,11 @@ button {
 }
 
 #apps-container {
-    display: none;
+    /* display: none; */
     height: 90em;
 }
 
 #writing-container {
-    /* display: none; */
     height: 90em;
 }
 
