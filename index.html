@@ -27,9 +27,9 @@
         <div id="projects-section" class="section">
             <div id="project-tabs-container">
                 <ul>
-                    <li><h1>Apps</h1></li>
-                    <li><h1>Writing</h1></li>
-                    <li><h1>AV</h1></li>
+                    <li><h1 onclick="showApps();">Apps</h1><hr id="apps-hr" class="tabs-underline"></hr></li>
+                    <li><h1 onclick="showWriting();">Writing</h1><hr id="writing-hr" class="tabs-underline"></hr></li>
+                    <li><h1 onclick="showAV();">AV</h1><hr id="av-hr" class="tabs-underline"></hr></li>
                 </ul>
             </div>
             <div id="apps-container" class="project-container">
@@ -112,5 +112,35 @@
                 <li><button onclick="document.querySelector('#projects-section').scrollIntoView({ behavior: 'smooth' });"><img id="profile-icon" src="https://seubsworld-assets.s3.amazonaws.com/assets/iconmonstr-briefcase-3-240.png" /></button></li>
             </ul>
         </div>
+        <script>
+            function hideAll() {
+                document.querySelectorAll("div.project-container").forEach(section => section.style.display = "none");
+                document.querySelectorAll("hr").forEach(hr => hr.style.display = "none");
+            }
+
+            function showApps() {
+                hideAll();
+                document.querySelector("div#apps-container").style.display = "block";
+                document.querySelector('#projects-section').scrollIntoView({ behavior: 'smooth' });
+                document.querySelector('#apps-hr').style.display = "block";
+            }
+
+            function showWriting() {
+                hideAll();
+                document.querySelector("div#writing-container").style.display = "block";
+                document.querySelector('#projects-section').scrollIntoView({ behavior: 'smooth' });
+                document.querySelector('#writing-hr').style.display = "block";
+            }
+
+            function showAV() {
+                hideAll();
+                document.querySelector("div#av-container").style.display = "block";
+                document.querySelector('#projects-section').scrollIntoView({ behavior: 'smooth' });
+                document.querySelector('#av-hr').style.display = "block";
+            }
+
+            hideAll();
+            showApps();
+        </script>
     </body>
 </html>

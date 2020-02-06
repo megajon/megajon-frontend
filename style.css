@@ -139,23 +139,24 @@ button {
     font-size: 2em;
 }
 
+.tabs-underline {
+    background-color: black;
+}
+
 .project-container {
     position: relative;
     top: 10em;
 }
 
 #apps-container {
-    /* display: none; */
     height: 90em;
 }
 
 #writing-container {
-    display: none;
     height: 90em;
 }
 
 #av-container {
-    display: none;
 }
 
 .apps-list {
