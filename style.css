@@ -145,7 +145,11 @@ button {
 }
 
 #apps-container {
-    
+    display: none;
+}
+
+#writing-container {
+    display: none;
 }
 
 .apps-list {
